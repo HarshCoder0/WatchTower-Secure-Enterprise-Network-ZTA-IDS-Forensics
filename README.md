@@ -8,7 +8,6 @@
 
 **Author:** Aremu David Adekanola (Precious Cornerstone University, Ibadan)  
 **Final Year Project 2026 - B.Sc. Cyber Security**  
-**Supervisor:** Mrs. Ajiboye G.O
 
 > Enterprise-grade security on commodity hardware - Zero cost licensing - Validated 100% detection rate - 3.23s mean alert latency
 
@@ -207,8 +206,6 @@ Monitor Wazuh Dashboard and WatchTower real-time.
 
 ## 📊 Performance Results
 
-See full thesis Chapter 4, or papers in `docs/publications/`.
-
 - Detection Rate 100% (6/6)
 - Mean Latency 3.23s
 - FP 0
@@ -269,7 +266,7 @@ MIT License - see LICENSE file. Free for academic, SME, commercial use.
 
 ## 📧 Contact
 
-Aremu David Adekanola - aremu.david@pcu.edu.ng - 2022/536
+Aremu David Adekanola - david1aremu@gmail.com
 
 **If this repo helps your thesis or SME deployment, please ⭐ star and cite!**
 
