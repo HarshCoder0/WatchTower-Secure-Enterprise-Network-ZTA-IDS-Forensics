@@ -1,0 +1,35 @@
+# VirtualBox
+*.vdi
+*.vmdk
+*.ova
+.vagrant/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+eve.json
+/var/log/suricata/
+wazuh-alerts-*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Credentials
+config.yml
+*wazuh-install.sh
+*.pem
+*.key
+
+# IDE
+.vscode/
+.idea/
+
+# Temp
+*.tmp
+*.swp
+demo_mode_cache.json
