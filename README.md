@@ -5,6 +5,7 @@
 [![Suricata](https://img.shields.io/badge/Suricata-7.0.6-red)](https://suricata.io/)
 [![Wazuh](https://img.shields.io/badge/Wazuh-4.9.2-lightblue)](https://wazuh.com/)
 [![Platform](https://img.shields.io/badge/Platform-VirtualBox-orange)](https://www.virtualbox.org/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21940116.svg)]((https://doi.org/10.5281/zenodo.21940116))
 
 **Author:** Aremu David Adekanola (Precious Cornerstone University, Ibadan)  
 **Final Year Project 2026 - B.Sc. Cyber Security**  
