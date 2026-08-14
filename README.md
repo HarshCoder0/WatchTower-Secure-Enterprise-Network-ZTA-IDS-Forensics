@@ -207,7 +207,7 @@ Monitor Wazuh Dashboard and WatchTower real-time.
 
 ## 📊 Performance Results
 
-See full thesis Chapter 4, or papers in `docs/publications/`.
+See full thesis Chapter 4, or papers.
 
 - Detection Rate 100% (6/6)
 - Mean Latency 3.23s
@@ -218,25 +218,6 @@ See full thesis Chapter 4, or papers in `docs/publications/`.
 
 ---
 
-## 📚 Publications from This Project
-
-This repo supports 10 papers generated:
-
-**Full Articles:**
-1. Zero-Trust Architecture Implementation Using Open-Source Tools on Commodity Hardware: A Nigerian Case Study
-2. Integrating Suricata IDS/IPS with Wazuh SIEM for Enterprise Threat Detection: Performance Evaluation
-3. WatchTower: A Custom SOC Dashboard for Unified Security Monitoring in Resource-Constrained Environments
-4. Digital Forensic Readiness in Enterprise Networks: File Integrity Monitoring and Anti-Forensics Detection with Wazuh
-5. Compliance Mapping of an Open-Source Secure Enterprise Network: NIST, PCI-DSS, CBN, ISO 27001, NDPR
-
-**Short Papers:**
-- Empirical Validation of Zero-Trust Microsegmentation via Controlled Attack Simulation
-- Performance Metrics of Suricata Custom Rules: Detection Latency and False Positives
-- Low-Cost SIEM Deployment for Nigerian SMEs: Lessons from VirtualBox Lab
-- Automated Active Response to SSH Brute Force in Zero-Trust Networks
-- DNS Enumeration and SQL Injection Detection in Open-Source Enterprise Security
-
-All papers in `/home/user/articles/` (in workspace).
 
 ---
 
@@ -260,8 +241,6 @@ MIT License - see LICENSE file. Free for academic, SME, commercial use.
 
 ## 🙏 Acknowledgement
 
-- Mrs. Ajiboye G.O - Supervisor
-- Precious Cornerstone University, Ibadan - Department of Computer Science
 - OISF Suricata, Wazuh Inc., pfSense community - Open-source tools
 - NIST, MITRE ATT&CK for frameworks
 
@@ -269,7 +248,7 @@ MIT License - see LICENSE file. Free for academic, SME, commercial use.
 
 ## 📧 Contact
 
-Aremu David Adekanola - aremu.david@pcu.edu.ng - 2022/536
+Aremu David Adekanola - david1aremu@gmail.com 
 
 **If this repo helps your thesis or SME deployment, please ⭐ star and cite!**
 
