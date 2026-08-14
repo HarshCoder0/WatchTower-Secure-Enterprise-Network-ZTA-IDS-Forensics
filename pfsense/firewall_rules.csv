@@ -1,0 +1,18 @@
+Rule#,Interface,Action,Protocol,Source,Destination,Port,Description
+1,LAN,PASS,TCP,LAN net,any,80/443,LAN internet
+2,LAN,PASS,TCP,LAN net,10.10.10.10,80/443,LAN to web
+3,LAN,PASS,TCP,LAN net,10.10.30.2,1514/1515,Wazuh agent
+4,LAN,PASS,TCP,LAN net,10.10.30.2,55000,Wazuh API
+5,LAN,PASS,UDP,10.10.10.10,10.10.30.2,514,Syslog
+6,LAN,PASS,TCP,LAN net,10.10.10.10,389,LDAP
+7,LAN,BLOCK,any,LAN net,any,any,Default deny
+8,DMZ,PASS,TCP,any,10.10.20.x,80/443,External to DMZ
+9,DMZ,PASS,UDP,10.10.20.x,10.10.30.2,514,DMZ syslog
+10,DMZ,BLOCK,any,DMZ net,LAN net,any,CRITICAL DMZ->LAN
+11,MON,PASS,any,10.10.30.2,any,any,SIEM all zones
+12,MON,BLOCK,any,MON net,WAN,any,SIEM no WAN
+13,ATK,PASS,TCP,10.10.40.2,10.10.10.10,80,Controlled test
+14,ATK,BLOCK,any,ATK net,LAN net,any,ATK->LAN isolated
+15,ATK,BLOCK,any,ATK net,MON net,any,ATK->SIEM isolated
+16,WAN,BLOCK,any,any,pfSense,any,No WAN admin
+17,WAN,BLOCK,any,any,LAN net,any,No WAN->LAN
