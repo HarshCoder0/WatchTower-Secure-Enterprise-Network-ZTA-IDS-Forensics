@@ -8,7 +8,7 @@
 
 **Author:** Aremu David Adekanola (Precious Cornerstone University, Ibadan)  
 **Final Year Project 2026 - B.Sc. Cyber Security**  
-**Supervisor:** Mrs. Ajiboye G.O
+
 
 > Enterprise-grade security on commodity hardware - Zero cost licensing - Validated 100% detection rate - 3.23s mean alert latency
 
